@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    letter-spacing: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    transition: color 0.5s;
+}
+
+.nav-links a:hover{
+    color: blue;
+}
+
+.banner{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+
+.Heading{
+    position: absolute;
+    top: 200px;
+    left: 610px;
+    letter-spacing: 1px;
+    font-size: 4rem;
+    font-family: 'Andada Pro', serif;
+    display: inline-block;
+}
+
+.para{
+    position: absolute;
+    top: 360px;
+    left: 600px;
+    font-size: 4rem;
+    font-family: 'Andada Pro', serif;
+    width: 40%;
+}
+
+.jungle{
+    margin-top: 200px;
+}
+
+
+.design{
+    position: absolute;
+    top: 950px;
+}
+
+.sec2-heading{
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+    font-size: 3rem;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+}
+
+.sec2-para{
+    position: absolute;
+    top: 1360px;
+    left: 440px;
+    width: 40%;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2rem;
+}
+
+.arrow1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1280px;
+    left: 200px;
+    transform: rotate(-30deg);
+}
+
+.arrow2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1520px;
+    left: 700px;
+    transform: rotate(-30deg);
+}
+
+.myimg{
+    height: 250px;
+    width: 220px;
+    position: absolute;
+    right: 70px;
+    top: 1550px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 20px 50px #5089C6;
+}
+
+.center{
+    width: 40%;
+    position: absolute;
+    top: 1900px;
+    left: 700px;
+    padding: 20px;
+}
+
+.skillbox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.skillbox p{
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.skillbox p:nth-child(2){
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+.skill{
+    background: #171010;
+    padding: 4px;
+    border: 1px solid #0fffb7;
+}
+
+.skill-meter{
+    background: #0fffb7;
+    height: 10px;
+}
+
+.skillhead{
+    position: absolute;
+    top: 1850px;
+    left: 200px;
+    font-size: 3.5rem;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+}
+
+.arrow3{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 1880px;
+    left: 400px;
+    transform: rotate(-30deg);
+}
+
+.footerhead{
+    position: absolute;
+    top: 2550px;
+    left: 500px;
+    font-size: 3.5rem;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 500;
+}
+
+.footerimg{
+    position: absolute;
+    top: 2800px;
+}
+
+.insta{
+    position: absolute;
+    top: 2700px;
+    left: 520px;
+}
+
+.li{
+    position: absolute;
+    top: 2700px;
+    left: 620px;
+}
+
+.git{
+    position: absolute;
+    top: 2700px;
+    left: 720px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:black;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent, #0CECDD);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:linear-gradient(transparent, #ff0000);
+}
